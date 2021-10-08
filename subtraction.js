@@ -4,7 +4,7 @@ var bElement = subtraction.getElementsByClassName('b')[0];
 var resultElement = subtraction.getElementsByClassName('result')[0];
 
 function subtract(a, b) {
-  return '?';
+  return -b + a;
 }
 
 var valueOfA = parseFloat(aElement.textContent);
